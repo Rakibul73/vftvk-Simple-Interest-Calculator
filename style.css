@@ -1,4 +1,33 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  background-color: black;
+  font: arial;
+  color: white;
+}
+h1 {
+  color: grey;
+  font: verdana;
+  font-size: 26px;
+}
 
+.main {
+  width: 300px;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.main > a {
+  display: block;
+  padding: 5px 15px;
+}
+
+#rate_value {
+  font-size: 14px;
+}
